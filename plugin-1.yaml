@@ -1,0 +1,6 @@
+apiVersion: "dashboard.k8s.io/v1"
+kind: Plugin
+metadata:
+  name: my-plugin
+spec:
+  configMapRef: "plugin-code"
